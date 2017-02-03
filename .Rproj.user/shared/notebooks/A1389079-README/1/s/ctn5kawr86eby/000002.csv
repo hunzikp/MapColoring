@@ -1,4 +1,0 @@
-"0","print(head(coloring))
-"
-"2","Error in head(coloring) : object 'coloring' not found
-"
