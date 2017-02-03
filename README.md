@@ -21,6 +21,11 @@ Note that MapColoring depends on the rgeos package, which in turn requires the e
 sudo apt-get install libgeos-dev
 ```
 
+Status
+------
+
+[![Travis-CI Build Status](https://travis-ci.org/hunzikp/MapColoring.svg?branch=master)](https://travis-ci.org/hunzikp/MapColoring)
+
 Details
 -------
 
