@@ -1,0 +1,11 @@
+Package: MapColoring
+Type: Package
+Title: Optimal Contrast Map Coloring
+Version: 1.0
+Date: 2017-02-02
+Author: Philipp Hunziker
+Maintainer: Philipp Hunziker <hunzikp@gmail.com>
+Description: Assigns colors to polygon maps using a minimal number of colors while ensuring no adjacent features have the same color. If provided more than the minimal required number of colors, selects colors in a manner that maximizes color contrasts between adjacent polygons. Also, implements the DSATUR graph coloring algorithm in R.
+Imports: rgeos, sp, methods
+Suggests: CEoptim
+License: GPL-3
