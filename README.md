@@ -15,6 +15,12 @@ library(devtools)
 install_github("hunzikp/MapColoring")
 ```
 
+Note that MapColoring depends on the rgeos package, which in turn requires the external GEOS library (&gt;= 3.2.0). To install GEOS on Debian/Ubuntu (&gt;= 12.04), enter
+
+``` bash
+sudo apt-get install libgeos-dev
+```
+
 Details
 -------
 
